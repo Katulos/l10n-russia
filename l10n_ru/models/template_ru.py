@@ -24,12 +24,18 @@ class AccountChartTemplate(models.AbstractModel):
                 "bank_account_code_prefix": "999",
                 "cash_account_code_prefix": "999",
                 "transfer_account_code_prefix": "000",
-                # "account_default_pos_receivable_account_id": "",
-                # "income_currency_exchange_account_id": "",
-                # "expense_currency_exchange_account_id": "",
-                # "account_journal_early_pay_discount_loss_account_id": "",
-                # "account_journal_early_pay_discount_gain_account_id": "",
-                # "account_sale_tax_id": "",
-                # "account_purchase_tax_id": "",
+                "income_currency_exchange_account_id": "ru_acc_91_01",
+                "expense_currency_exchange_account_id": "ru_acc_91_02",
+                "account_journal_early_pay_discount_loss_account_id": "ru_acc_99",
+                "account_journal_early_pay_discount_gain_account_id": "ru_acc_99",
+                "account_sale_tax_id": "sale_vat_20",
+                "account_purchase_tax_id": "purchase_vat_20",
             }
+        }
+
+    @template("ru", "account.journal")
+    def _get_ru_account_journal(self):
+        return {
+            "cash": {"default_account_id": "ru_acc_50_01"},
+            "bank": {"default_account_id": "ru_acc_51"},
         }
