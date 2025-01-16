@@ -1,9 +1,11 @@
 {
     "name": "Russia - Accounting",
+    "website": "https://github.com/OCA/l10n-russia",
+    "countries": ["ru"],
     "version": "17.0.1.0.0",
     "category": "Accounting/Localizations/Account Charts",
     "author": "CodUP, Katulos, Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/l10n-russia",
+    "maintainers": ["Katulos"],
     "license": "AGPL-3",
     "depends": ["account"],
     "data": [
