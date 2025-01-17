@@ -1,7 +1,7 @@
 "id","tax_group_id","name","name@ru","description","description@ru","invoice_label","invoice_label@ru","type_tax_use","amount","amount_type","sequence","price_include","active"
 "purchase_vat_0", "tax_group_vat_0","VAT 0%","НДС 0%","","","VAT 0%","НДС 0%","purchase","0.0","percent","","True","False"
 "sale_vat_0", "tax_group_vat_0","VAT 0%","НДС 0%","","","VAT 0%","НДС 0%","sale","0.0","percent","","True","False"
-"purchase_vat_5", "tax_group_vat_0","VAT 5%","НДС 5%","","","VAT 5%","НДС 5%","purchase","5.0","percent","","True","False"
+"purchase_vat_5", "tax_group_vat_5","VAT 5%","НДС 5%","","","VAT 5%","НДС 5%","purchase","5.0","percent","","True","False"
 "sale_vat_5", "tax_group_vat_5","VAT 5%","НДС 5%","","","VAT 5%","НДС 5%","sale","5.0","percent","","True","False"
 "purchase_vat_10", "tax_group_vat_10","VAT 10%","НДС 10%","","","VAT 10%","НДС 10%","purchase","10.0","percent","","True","False"
 "sale_vat_10", "tax_group_vat_10","VAT 10%","НДС 10%","","","VAT 10%","НДС 10%","sale","10.0","percent","","True","False"
