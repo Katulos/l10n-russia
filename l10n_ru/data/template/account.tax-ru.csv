@@ -6,7 +6,7 @@
 "purchase_vat_10", "tax_group_vat_10","VAT 10%","НДС 10%","","","VAT 10%","НДС 10%","purchase","10.0","percent","","True","False"
 "sale_vat_10", "tax_group_vat_10","VAT 10%","НДС 10%","","","VAT 10%","НДС 10%","sale","10.0","percent","","True","False"
 "purchase_vat_15", "tax_group_vat_15","VAT 15%","НДС 15%","","","VAT 15%","НДС 15%","purchase","15.0","percent","","True","False"
-"sale_vat_15", "tax_group_vat_15","VAT 15%","НДС 15%","","","VAT 15%","НДС 15%","sale","15.0","percent","",""True","False"
+"sale_vat_15", "tax_group_vat_15","VAT 15%","НДС 15%","","","VAT 15%","НДС 15%","sale","15.0","percent","","True","False"
 "purchase_vat_20", "tax_group_vat_20","VAT 20%","НДС 20%","","","VAT 20%","НДС 20%","purchase","20.0","percent","","True","True"
 "sale_vat_20", "tax_group_vat_20","VAT 20%","НДС 20%","","","VAT 20%","НДС 20%","sale","20.0","percent","","True","True"
 "sale_asts_8","tax_group_asts_8","ASTS 8%","АУСН 8%","","","ASTS 8%","АУСН 8%","sale", "8.0","division","","True","False"
