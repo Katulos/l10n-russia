@@ -12,5 +12,6 @@
         "data/account_account_tag_data.xml",
     ],
     "installable": True,
+    "auto_install": ["account"],
     "license": "AGPL-3",
 }
