@@ -5,8 +5,14 @@
         <field name="model">res.company</field>
         <field name="inherit_id" ref="account.view_company_form" />
         <field name="arch" type="xml">
+            <field name="name" position="after">
+                <field name="company_type" invisible="country_code != 'RU'" />
+            </field>
             <field name="vat" position="after">
-                <field name="kpp" invisible="country_code != 'RU'" />
+                <field
+                    name="kpp"
+                    invisible="country_code != 'RU' or company_type !='individual_entrepreneur' or company_type!='natural_person'"
+                />
             </field>
         </field>
     </record>

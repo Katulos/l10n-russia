@@ -7,7 +7,7 @@
     "depends": ["account", "l10n_ru"],
     "author": "CodUP, Katulos, Odoo Community Association (OCA)",
     "maintainers": ["Katulos"],
-    "data": ["views/res_company.xml"],
+    "data": ["data/res_company_type.xml", "views/res_company.xml"],
     "installable": True,
     "license": "AGPL-3",
 }

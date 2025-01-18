@@ -11,3 +11,5 @@ class ResCompany(models.Model):
         tracking=True,
         size=9,
     )
+
+    company_type = fields.Many2one("res.company.type")
