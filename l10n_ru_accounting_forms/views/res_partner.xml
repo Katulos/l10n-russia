@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-    <record id="res_company_form_l10n_ru" model="ir.ui.view">
-        <field name="name">res.company.form</field>
-        <field name="model">res.company</field>
-        <field name="inherit_id" ref="base.view_company_form" />
+    <record id="res_partner_form_l10n_ru" model="ir.ui.view">
+        <field name="name">res.partner.l10n_ru.form</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form" />
         <field name="arch" type="xml">
             <field name="company_type" position="after">
                 <field
