@@ -13,5 +13,7 @@ class ResCompany(models.Model):
     )
 
     company_l10n_ru_type = fields.Many2one(
-        "res.company.type", related="partner_id.company_l10n_ru_type"
+        "res.company.type",
+        related="partner_id.company_l10n_ru_type",
+        string="Company Type",
     )
