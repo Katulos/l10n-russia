@@ -1,4 +1,4 @@
-from odoo import models
+from odoo import _, models
 
 from odoo.addons.account.models.chart_template import template
 
@@ -9,6 +9,7 @@ class AccountChartTemplate(models.AbstractModel):
     @template("ru")
     def _get_ru_template_data(self):
         return {
+            "name": _("Chart of Accounts"),
             "code_digits": "1",
             "use_storno_accounting": True,
             "display_invoice_amount_total_words": True,

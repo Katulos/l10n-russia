@@ -1,4 +1,4 @@
-"id","name","country_id","name@ru"
+"id","name","country_id","name@ru_RU"
 "tax_group_vat_0","VAT 0%","base.ru","НДС 0%"
 "tax_group_vat_5","VAT 5%","base.ru","НДС 5%"
 "tax_group_vat_5","VAT 7%","base.ru","НДС 7%"

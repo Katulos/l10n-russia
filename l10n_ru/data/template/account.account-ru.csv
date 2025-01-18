@@ -1,4 +1,4 @@
-"id","code","name","name@ru","reconcile","account_type"
+"id","code","name","name@ru_RU","reconcile","account_type"
 "ru_acc_000","000","Auxiliary account","Вспомогательный счет","True","expense"
 "ru_acc_001","001","Leased fixed assets","Арендованные основные средства","True","expense"
 "ru_acc_002","002","Inventory accepted for safekeeping","Товарно-материальные ценности, принятые на ответственное хранение","True","expense"
