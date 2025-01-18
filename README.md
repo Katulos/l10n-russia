@@ -20,6 +20,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [l10n_ru](l10n_ru/) | 17.0.1.0.0 | [![Katulos](https://github.com/Katulos.png?size=30px)](https://github.com/Katulos) | Russia - Accounting
+[l10n_ru_accounting_forms](l10n_ru_accounting_forms/) | 17.0.1.0.0 | [![Katulos](https://github.com/Katulos.png?size=30px)](https://github.com/Katulos) | Russia - Documents
 
 [//]: # (end addons)
 
