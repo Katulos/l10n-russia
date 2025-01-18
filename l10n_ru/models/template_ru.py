@@ -10,6 +10,8 @@ class AccountChartTemplate(models.AbstractModel):
     def _get_ru_template_data(self):
         return {
             "code_digits": "1",
+            "use_storno_accounting": True,
+            "display_invoice_amount_total_words": True,
             "property_account_receivable_id": "ru_acc_62_01",
             "property_account_payable_id": "ru_acc_60_01",
             "property_account_expense_categ_id": "ru_acc_41_01",
