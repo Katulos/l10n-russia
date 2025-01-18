@@ -20,6 +20,6 @@
 "sale_uat_4","tax_group_uat_4","UAT 4%","ЕСХН 4%","","","UAT 4%","ЕСХН 4%","sale", "4.0","division","","True","False"
 "sale_uat_5","tax_group_uat_5","UAT 5%","ЕСХН 5%","","","UAT 5%","ЕСХН 5%","sale", "5.0","division","","True","False"
 "sale_uat_6","tax_group_uat_6","UAT 6%","ЕСХН 6%","","","UAT 6%","ЕСХН 6%","sale", "6.0","division","","True","False"
-"sale_pts_o","tax_group_pts_0","PTS 0%","ПСН 0%","","","PTS 0%","ПСН 0%","sale", "0.0","division","","True","False"
+"sale_pts_0","tax_group_pts_0","PTS 0%","ПСН 0%","","","PTS 0%","ПСН 0%","sale", "0.0","division","","True","False"
 "sale_set_4","tax_group_set_4","SET 4%","НПД 4%","","","SET 4%","НПД 4%","sale", "4.0","division","","True","False"
 "sale_set_6","tax_group_set_6","SET 6%","НПД 6%","","","SET 6%","НПД 6%","sale", "6.0","division","","True","False"
