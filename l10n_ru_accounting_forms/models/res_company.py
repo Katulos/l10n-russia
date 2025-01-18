@@ -9,4 +9,5 @@ class ResCompany(models.Model):
         related="partner_id.kpp",
         help="Reason code for registration.",
         tracking=True,
+        size=9,
     )
