@@ -11,6 +11,7 @@
         "data/res_company_type.xml",
         "views/res_company.xml",
         "views/res_partner.xml",
+        "security/ir.model.access.csv",
     ],
     "installable": True,
     "license": "AGPL-3",
