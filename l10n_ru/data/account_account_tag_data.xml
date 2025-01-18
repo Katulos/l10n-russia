@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo noupdate="1">
-    <!-- Tags for accounts -->
+    <record id="acc_tag_vat" model="account.account.tag">
+        <field name="name">VAT</field>
+        <field name="applicability">accounts</field>
+    </record>
 </odoo>

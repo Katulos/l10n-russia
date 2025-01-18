@@ -1,5 +1,7 @@
 ## This is the base module to manage the accounting chart for Russia in Odoo.
 
+**Russian**
+
 Возможности:
 
 > - План счетов бухгалтерского учёта финансово-хозяйственной
