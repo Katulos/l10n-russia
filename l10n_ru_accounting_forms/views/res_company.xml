@@ -11,7 +11,7 @@
             <field name="vat" position="after">
                 <field
                     name="kpp"
-                    invisible="country_code != 'RU' and company_l10n_ru_type != 'individual_entrepreneur' and company_l10n_ru_type != 'natural_person'"
+                    invisible="country_code != 'RU' and company_l10n_ru_type not in ['individual_entrepreneur','natural_person']"
                 />
             </field>
         </field>

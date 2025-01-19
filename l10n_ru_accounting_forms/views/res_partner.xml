@@ -5,7 +5,7 @@
         <field name="model">res.partner</field>
         <field name="inherit_id" ref="base.view_partner_form" />
         <field name="arch" type="xml">
-            <field name="company_type" position="after">
+            <field name="name" position="after">
                 <field
                     name="company_l10n_ru_type"
                     invisible="country_code !='RU' and company_type != 'comapny'"
@@ -14,7 +14,7 @@
             <field name="vat" position="after">
                 <field
                     name="kpp"
-                    invisible="country_code !='RU' and company_type != 'comapny' and company_l10n_ru_type != 'individual_entrepreneur' and company_l10n_ru_type != 'natural_person'"
+                    invisible="country_code != 'RU' and company_l10n_ru_type not in ['individual_entrepreneur','natural_person']"
                 />
             </field>
         </field>
